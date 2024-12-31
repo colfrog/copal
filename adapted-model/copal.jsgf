@@ -6,5 +6,5 @@
 grammar copal;
 
 <request> = copal;
-<object> = (idle | exit | zelda | play | rick roll);
+<object> = idle | exit | zelda | play | rick roll;
 public <command> = <request> <object>;

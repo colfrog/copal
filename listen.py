@@ -24,18 +24,24 @@ speech = LiveSpeech(
 	no_search=False,
 	full_utt=False,
 	hmm=os.path.join(model_path, 'ptm-adapt'),
-	jsgf=os.path.join(model_path, 'copal.jsgf'),
+	lm=False,
+	kws=os.path.join(model_path, 'kws.list'),
+	#jsgf=os.path.join(model_path, 'copal.jsgf'),
 	dic=os.path.join(model_path, 'cmudict-en-us.dict')
 )
 
 for phrase in speech:
+	print(phrase.segments(detailed=True))
 	h = phrase.hyp()
 	print(h.score, h.prob, h.hypstr)
-	if len(h.hypstr.split(' ')) < 2:
+	words = h.hypstr.split(' ')
+	if len(words) < 2:
+		continue
+	if words[0] != 'copal':
 		continue
 
 	key = h.hypstr.split(' ')[1]
-	if h.score >= 0.1 and key in commands.keys():
+	if h.score >= 0.7 and key in commands.keys():
 		if key == 'exit':
 			if active_process is not None and active_process.poll() is None:
 				active_process.terminate()

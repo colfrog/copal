@@ -1,4 +1,6 @@
 #!/bin/bash
+rm -rf ptm-adapt
+cp -R ptm ptm-adapt
 ./format-wav.sh
 ./make-mfc.sh
 ./stats.sh
