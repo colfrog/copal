@@ -1,0 +1,10 @@
+#JSGF V1.0;
+/**
+ * JSGF test grammar
+ */
+
+grammar copal;
+
+<request> = copal;
+<object> = (idle | exit | zelda | play | rick roll);
+public <command> = <request> <object>;
