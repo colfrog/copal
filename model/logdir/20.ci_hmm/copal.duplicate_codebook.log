@@ -1,0 +1,87 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-dest_meanfn		/home/laurent/src/copal/model/model_parameters/copal.ci_semi_flatinitial/means
+-dest_mixwfn		/home/laurent/src/copal/model/model_parameters/copal.ci_semi_flatinitial/mixture_weights
+-dest_moddeffn		/home/laurent/src/copal/model/model_architecture/copal.ci.mdef
+-dest_tmatfn		/home/laurent/src/copal/model/model_parameters/copal.ci_semi_flatinitial/transition_matrices
+-dest_ts2cbfn		.semi.
+-dest_varfn		/home/laurent/src/copal/model/model_parameters/copal.ci_semi_flatinitial/variances
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-src_meanfn		/home/laurent/src/copal/model/model_parameters/copal.ci_semi_flatinitial/means
+-src_mixwfn		/home/laurent/src/copal/model/model_parameters/copal.ci_semi_flatinitial/mixture_weights
+-src_moddeffn		/home/laurent/src/copal/model/model_architecture/copal.ci.mdef
+-src_tmatfn		/home/laurent/src/copal/model/model_parameters/copal.ci_semi_flatinitial/transition_matrices
+-src_ts2cbfn		.semi.
+-src_varfn		/home/laurent/src/copal/model/model_parameters/copal.ci_semi_flatinitial/variances
+
+INFO: main.c(261): Reading src /home/laurent/src/copal/model/model_architecture/copal.ci.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 14 total models defined (14 base, 0 tri)
+INFO: model_def_io.c(575): 56 total states
+INFO: model_def_io.c(576): 42 total tied states
+INFO: model_def_io.c(577): 42 total tied CI states
+INFO: model_def_io.c(578): 14 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: main.c(272): Generating semi-continous ts2cb mapping
+INFO: main.c(299): Reading src /home/laurent/src/copal/model/model_parameters/copal.ci_semi_flatinitial/mixture_weights
+INFO: s3mixw_io.c(116): Read /home/laurent/src/copal/model/model_parameters/copal.ci_semi_flatinitial/mixture_weights [42x4x256 array]
+INFO: main.c(308): Reading src /home/laurent/src/copal/model/model_parameters/copal.ci_semi_flatinitial/transition_matrices
+INFO: s3tmat_io.c(117): Read /home/laurent/src/copal/model/model_parameters/copal.ci_semi_flatinitial/transition_matrices [14x3x4 array]
+INFO: main.c(318): Reading src /home/laurent/src/copal/model/model_parameters/copal.ci_semi_flatinitial/means
+INFO: s3gau_io.c(168): Read /home/laurent/src/copal/model/model_parameters/copal.ci_semi_flatinitial/means [1x4x256 array]
+INFO: main.c(342): Reading src /home/laurent/src/copal/model/model_parameters/copal.ci_semi_flatinitial/variances
+INFO: s3gau_io.c(168): Read /home/laurent/src/copal/model/model_parameters/copal.ci_semi_flatinitial/variances [1x4x256 array]
+INFO: main.c(390): Reading dest /home/laurent/src/copal/model/model_architecture/copal.ci.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 14 total models defined (14 base, 0 tri)
+INFO: model_def_io.c(575): 56 total states
+INFO: model_def_io.c(576): 42 total tied states
+INFO: model_def_io.c(577): 42 total tied CI states
+INFO: model_def_io.c(578): 14 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: main.c(401): Generating semi-continous ts2cb mapping
+INFO: main.c(431): Calculating initial model parameters
+INFO: main.c(436): Alloc 14x3x4 dest tmat
+INFO: main.c(449): Alloc 42x4x256 dest mixw
+INFO: main.c(462): Alloc 1x4x256 dest mean and var
+        AH <- AH        : [tm     0 +=     0]
+[mx     0(0) +=     0] [mg     0(0) <-     0] [mx     1(1) +=     1] [mx     2(2) +=     2] 
+        AY <- AY        : [tm     1 +=     1]
+[mx     3(0) +=     3] [mx     4(1) +=     4] [mx     5(2) +=     5] 
+         D <- D         : [tm     2 +=     2]
+[mx     6(0) +=     6] [mx     7(1) +=     7] [mx     8(2) +=     8] 
+        EH <- EH        : [tm     3 +=     3]
+[mx     9(0) +=     9] [mx    10(1) +=    10] [mx    11(2) +=    11] 
+        EY <- EY        : [tm     4 +=     4]
+[mx    12(0) +=    12] [mx    13(1) +=    13] [mx    14(2) +=    14] 
+        IH <- IH        : [tm     5 +=     5]
+[mx    15(0) +=    15] [mx    16(1) +=    16] [mx    17(2) +=    17] 
+         K <- K         : [tm     6 +=     6]
+[mx    18(0) +=    18] [mx    19(1) +=    19] [mx    20(2) +=    20] 
+         L <- L         : [tm     7 +=     7]
+[mx    21(0) +=    21] [mx    22(1) +=    22] [mx    23(2) +=    23] 
+        OH <- OH        : [tm     8 +=     8]
+[mx    24(0) +=    24] [mx    25(1) +=    25] [mx    26(2) +=    26] 
+         P <- P         : [tm     9 +=     9]
+[mx    27(0) +=    27] [mx    28(1) +=    28] [mx    29(2) +=    29] 
+         R <- R         : [tm    10 +=    10]
+[mx    30(0) +=    30] [mx    31(1) +=    31] [mx    32(2) +=    32] 
+       SIL <- SIL       : [tm    11 +=    11]
+[mx    33(0) +=    33] [mx    34(1) +=    34] [mx    35(2) +=    35] 
+         T <- T         : [tm    12 +=    12]
+[mx    36(0) +=    36] [mx    37(1) +=    37] [mx    38(2) +=    38] 
+         Z <- Z         : INFO: main.c(528): Writing dest /home/laurent/src/copal/model/model_parameters/copal.ci_semi_flatinitial/transition_matrices
+INFO: s3tmat_io.c(175): Wrote /home/laurent/src/copal/model/model_parameters/copal.ci_semi_flatinitial/transition_matrices [14x3x4 array]
+INFO: main.c(539): Writing dest /home/laurent/src/copal/model/model_parameters/copal.ci_semi_flatinitial/mixture_weights
+INFO: s3mixw_io.c(232): Wrote /home/laurent/src/copal/model/model_parameters/copal.ci_semi_flatinitial/mixture_weights [42x4x256 array]
+INFO: main.c(548): Writing dest /home/laurent/src/copal/model/model_parameters/copal.ci_semi_flatinitial/means
+INFO: s3gau_io.c(228): Wrote /home/laurent/src/copal/model/model_parameters/copal.ci_semi_flatinitial/means [1x4x256 array]
+INFO: main.c(560): Writing dest /home/laurent/src/copal/model/model_parameters/copal.ci_semi_flatinitial/variances
+INFO: s3gau_io.c(228): Wrote /home/laurent/src/copal/model/model_parameters/copal.ci_semi_flatinitial/variances [1x4x256 array]
+[tm    13 +=    13]
+[mx    39(0) +=    39] [mx    40(1) +=    40] [mx    41(2) +=    41] 
+Sat Dec 28 22:00:20 2024

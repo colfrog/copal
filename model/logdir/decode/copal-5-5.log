@@ -1,0 +1,437 @@
+        INFO: pocketsphinx.c(128): Parsed model-specific feature parameters from /home/laurent/src/copal/new-model/model_parameters/copal.ci_semi/feat.params
+INFO: cmd_ln.c(569): Current configuration:
+[NAME]            [DEFLT]               [VALUE]
+-agc               none                  none
+-agcthresh         2.0                   2.000000e+00
+-allphone                            
+-allphone_ci       yes                   yes
+-alpha             0.97                  9.700000e-01
+-ascale            20.0                  2.000000e+01
+-aw                1                     1
+-backtrace         no                    no
+-beam              1e-48                 1.000000e-80
+-bestpath          yes                   yes
+-bestpathlw        9.5                   1.000000e+01
+-ceplen            13                    13
+-cmn               live                  batch
+-cmninit           40,3,-1               40,3,-1
+-compallsen        no                    no
+-dict                                    /home/laurent/src/copal/new-model/etc/copal.dic
+-dictcase          no                    no
+-dither            no                    no
+-doublebw          no                    no
+-ds                1                     1
+-fdict                                   /home/laurent/src/copal/new-model/model_parameters/copal.ci_semi/noisedict
+-feat              1s_c_d_dd             s2_4x
+-featparams                              /home/laurent/src/copal/new-model/model_parameters/copal.ci_semi/feat.params
+-fillprob          1e-8                  1.000000e-08
+-frate             100                   100
+-fsg                                 
+-fsgusealtpron     yes                   yes
+-fsgusefiller      yes                   yes
+-fwdflat           yes                   yes
+-fwdflatbeam       1e-64                 1.000000e-80
+-fwdflatefwid      4                     4
+-fwdflatlw         8.5                   1.000000e+01
+-fwdflatsfwin      25                    25
+-fwdflatwbeam      7e-29                 1.000000e-40
+-fwdtree           yes                   yes
+-hmm                                     /home/laurent/src/copal/new-model/model_parameters/copal.ci_semi
+-input_endian      little                little
+-jsgf                                    /home/laurent/src/copal/new-model/etc/copal.jsgf
+-keyphrase                           
+-kws                                 
+-kws_delay         10                    10
+-kws_plp           1e-1                  1.000000e-01
+-kws_threshold     1e-30                 1.000000e-30
+-latsize           5000                  5000
+-lda                                 
+-ldadim            0                     0
+-lifter            0                     22
+-lm                                  
+-lmctl                               
+-lmname                              
+-logbase           1.0001                1.000100e+00
+-logfn                               
+-loglevel          WARN                  INFO
+-logspec           no                    no
+-lowerf            133.33334             1.300000e+02
+-lpbeam            1e-40                 1.000000e-80
+-lponlybeam        7e-29                 1.000000e-80
+-lw                6.5                   1.000000e+01
+-maxhmmpf          30000                 30000
+-maxwpf            -1                    -1
+-mdef                                    /home/laurent/src/copal/new-model/model_parameters/copal.ci_semi/mdef
+-mean                                    /home/laurent/src/copal/new-model/model_parameters/copal.ci_semi/means
+-mfclogdir                           
+-min_endfr         0                     0
+-mixw                                    /home/laurent/src/copal/new-model/model_parameters/copal.ci_semi/mixture_weights
+-mixwfloor         0.0000001             1.000000e-07
+-mllr                                
+-mmap              yes                   yes
+-ncep              13                    13
+-nfft              0                     0
+-nfilt             40                    25
+-nwpen             1.0                   1.000000e+00
+-pbeam             1e-48                 1.000000e-80
+-pip               1.0                   1.000000e+00
+-pl_beam           1e-10                 1.000000e-10
+-pl_pbeam          1e-10                 1.000000e-10
+-pl_pip            1.0                   1.000000e+00
+-pl_weight         3.0                   3.000000e+00
+-pl_window         5                     5
+-rawlogdir                           
+-remove_dc         no                    no
+-remove_noise      no                    no
+-round_filters     yes                   yes
+-samprate          16000                 16000
+-seed              -1                    -1
+-sendump                             
+-senlogdir                           
+-senmgau                             
+-silprob           0.005                 5.000000e-03
+-smoothspec        no                    no
+-svspec                              
+-tmat                                    /home/laurent/src/copal/new-model/model_parameters/copal.ci_semi/transition_matrices
+-tmatfloor         0.0001                1.000000e-04
+-topn              4                     4
+-topn_beam         0                     0
+-toprule                             
+-transform         legacy                dct
+-unit_area         yes                   yes
+-upperf            6855.4976             6.800000e+03
+-uw                1.0                   1.000000e+00
+-var                                     /home/laurent/src/copal/new-model/model_parameters/copal.ci_semi/variances
+-varfloor          0.0001                1.000000e-04
+-varnorm           no                    yes
+-verbose           no                    no
+-warp_params                         
+-warp_type         inverse_linear        inverse_linear
+-wbeam             7e-29                 1.000000e-40
+-wip               0.65                  2.000000e-01
+-wlen              0.025625              2.562500e-02
+
+INFO: fe_interface.c(91): Frames are 410 samples at intervals of 160
+INFO: fe_interface.c(108): FFT size automatically set to 512
+INFO: feat.c(713): Initializing feature stream to type: 's2_4x', ceplen=13, CMN='batch', VARNORM='yes', AGC='none'
+INFO: acmod.c(188): Setting initial CMN to 40,3,-1
+INFO: cmn.c(124): Update from < 0,0,0,0,0,0,0,0,0,0,0,0,0 >
+INFO: cmn.c(144): Update to   < 40,3,-1,0,0,0,0,0,0,0,0,0,0 >
+INFO: mdef.c(515): Reading model definition: /home/laurent/src/copal/new-model/model_parameters/copal.ci_semi/mdef
+INFO: bin_mdef.c(179): Allocating 60 * 8 bytes (0 KiB) for CD tree
+INFO: tmat.c(147): Reading HMM transition probability matrices: /home/laurent/src/copal/new-model/model_parameters/copal.ci_semi/transition_matrices
+INFO: acmod.c(107): Attempting to use PTM computation module
+INFO: ms_gauden.c(128): Reading mixture gaussian parameter: /home/laurent/src/copal/new-model/model_parameters/copal.ci_semi/means
+INFO: ms_gauden.c(243): 1 codebook, 4 feature, size: 
+INFO: ms_gauden.c(245):  256x12
+INFO: ms_gauden.c(245):  256x24
+INFO: ms_gauden.c(245):  256x3
+INFO: ms_gauden.c(245):  256x12
+INFO: ms_gauden.c(128): Reading mixture gaussian parameter: /home/laurent/src/copal/new-model/model_parameters/copal.ci_semi/variances
+INFO: ms_gauden.c(243): 1 codebook, 4 feature, size: 
+INFO: ms_gauden.c(245):  256x12
+INFO: ms_gauden.c(245):  256x24
+INFO: ms_gauden.c(245):  256x3
+INFO: ms_gauden.c(245):  256x12
+INFO: ms_gauden.c(305): 410 variance values floored
+INFO: ptm_mgau.c(836): Number of codebooks doesn't match number of ciphones, doesn't look like PTM: 1 != 14
+INFO: acmod.c(109): Attempting to use semi-continuous computation module
+INFO: ms_gauden.c(128): Reading mixture gaussian parameter: /home/laurent/src/copal/new-model/model_parameters/copal.ci_semi/means
+INFO: ms_gauden.c(243): 1 codebook, 4 feature, size: 
+INFO: ms_gauden.c(245):  256x12
+INFO: ms_gauden.c(245):  256x24
+INFO: ms_gauden.c(245):  256x3
+INFO: ms_gauden.c(245):  256x12
+INFO: ms_gauden.c(128): Reading mixture gaussian parameter: /home/laurent/src/copal/new-model/model_parameters/copal.ci_semi/variances
+INFO: ms_gauden.c(243): 1 codebook, 4 feature, size: 
+INFO: ms_gauden.c(245):  256x12
+INFO: ms_gauden.c(245):  256x24
+INFO: ms_gauden.c(245):  256x3
+INFO: ms_gauden.c(245):  256x12
+INFO: ms_gauden.c(305): 410 variance values floored
+INFO: s2_semi_mgau.c(1100): Reading mixture weights file '/home/laurent/src/copal/new-model/model_parameters/copal.ci_semi/mixture_weights'
+INFO: s2_semi_mgau.c(1193): Read 42 x 4 x 256 mixture weights
+INFO: s2_semi_mgau.c(1298): Maximum top-N: 4 Top-N beams: 0 0 0 0
+INFO: phone_loop_search.c(113): State beam -225 Phone exit beam -225 Insertion penalty 0
+INFO: dict.c(316): Allocating 4105 * 32 bytes (128 KiB) for word entries
+INFO: dict.c(331): Reading main dictionary: /home/laurent/src/copal/new-model/etc/copal.dic
+INFO: dict.c(209): Dictionary size 6, allocated 0 KiB for strings, 0 KiB for phones
+INFO: dict.c(334): 6 words read
+INFO: dict.c(356): Reading filler dictionary: /home/laurent/src/copal/new-model/model_parameters/copal.ci_semi/noisedict
+INFO: dict.c(209): Dictionary size 9, allocated 0 KiB for strings, 0 KiB for phones
+INFO: dict.c(359): 3 words read
+INFO: dict2pid.c(399): Building PID tables for dictionary
+INFO: dict2pid.c(407): Allocating 14^3 * 2 bytes (5 KiB) for word-initial triphones
+INFO: dict2pid.c(134): Allocated 4816 bytes (4 KiB) for word-final triphones
+INFO: dict2pid.c(198): Allocated 4816 bytes (4 KiB) for single-phone word triphones
+INFO: jsgf.c(646): Defined rule: <copal.request>
+INFO: jsgf.c(646): Defined rule: <copal.g00001>
+INFO: jsgf.c(646): Defined rule: <copal.object>
+INFO: jsgf.c(646): Defined rule: PUBLIC <copal.command>
+INFO: fsg_model.c(190): Computing transitive closure for null transitions
+INFO: fsg_model.c(252): 14 null transitions added
+INFO: fsg_search.c(222): FSG(beam: -1799, pbeam: -1799, wbeam: -900; wip: -158, pip: 0)
+INFO: fsg_model.c(405): Adding silence transitions for <sil> to FSG
+INFO: fsg_model.c(425): Added 14 silence word transitions
+INFO: fsg_search.c(170): Added 0 alternate word transitions
+INFO: fsg_lextree.c(105): Allocated 420 bytes (0 KiB) for left and right context phones
+INFO: fsg_lextree.c(252): 42 HMM nodes in lextree (20 leaves)
+INFO: fsg_lextree.c(254): Allocated 6048 bytes (5 KiB) for all lextree nodes
+INFO: fsg_lextree.c(257): Allocated 2880 bytes (2 KiB) for lextree leafnodes
+INFO: pocketsphinx_batch.c(836): Decoding 'copalrickroll-02'
+INFO: cmn.c(200): CMN: 58.8057,20.2957,-13.8722,10.8963,-29.79,0.0622358,5.02111,-20.1018,10.3973,-22.3365,2.23546,10.478,-13.0848
+INFO: fsg_search.c(857): 135 frames, 554 HMMs (4/fr), 1335 senones (9/fr), 196 history entries (1/fr)
+
+INFO: fsg_search.c(872): fsg 0.01 CPU 0.008 xRT
+INFO: fsg_search.c(874): fsg 0.01 wall 0.008 xRT
+INFO: fsg_search.c(1265): Start node candidate <sil>.0:2:7
+INFO: fsg_search.c(1265): Start node candidate <sil>.0:2:7
+INFO: fsg_search.c(1304): End node candidate <sil>.127:129:134 (-1133)
+INFO: fsg_search.c(1304): End node candidate <sil>.127:129:134 (-1133)
+INFO: fsg_search.c(1304): End node candidate <sil>.127:129:134 (-1133)
+INFO: fsg_search.c(1304): End node candidate <sil>.127:129:134 (-1133)
+INFO: fsg_search.c(1304): End node candidate rickroll.61:114:134 (-6272)
+INFO: fsg_search.c(1529): lattice start node <s>.0 end node </s>.135
+INFO: ps_lattice.c(1382): Bestpath score: -13823
+INFO: ps_lattice.c(1383): Normalizer P(O) = alpha(</s>:135:135) = -700804
+INFO: ps_lattice.c(1443): Joint P(O,S) = -707736 P(S|O) = -6932
+INFO: pocketsphinx_batch.c(879): copalrickroll-02: 1.35 seconds speech, 0.01 seconds CPU, 0.01 seconds wall
+INFO: pocketsphinx_batch.c(881): copalrickroll-02: 0.01 xRT (CPU), 0.01 xRT (elapsed)
+copal rickroll (copalrickroll-02 -13823)
+copalrickroll-02 done --------------------------------------
+INFO: pocketsphinx_batch.c(836): Decoding 'copalrickroll-03'
+INFO: cmn.c(200): CMN: 59.4895,21.0156,-14.0844,14.2267,-30.474,-1.28543,2.90963,-20.7355,9.74404,-23.7212,-0.2557,7.47636,-16.7614
+INFO: fsg_search.c(857): 134 frames, 626 HMMs (4/fr), 1482 senones (11/fr), 203 history entries (1/fr)
+
+INFO: fsg_search.c(872): fsg 0.01 CPU 0.008 xRT
+INFO: fsg_search.c(874): fsg 0.01 wall 0.008 xRT
+INFO: fsg_search.c(1265): Start node candidate <sil>.0:2:6
+INFO: fsg_search.c(1265): Start node candidate <sil>.0:2:6
+INFO: fsg_search.c(1304): End node candidate <sil>.127:129:133 (-1080)
+INFO: fsg_search.c(1304): End node candidate <sil>.127:129:133 (-1080)
+INFO: fsg_search.c(1304): End node candidate <sil>.127:129:133 (-1080)
+INFO: fsg_search.c(1304): End node candidate <sil>.127:129:133 (-1080)
+INFO: fsg_search.c(1304): End node candidate rickroll.57:114:133 (-6564)
+INFO: fsg_search.c(1529): lattice start node <s>.0 end node </s>.134
+INFO: ps_lattice.c(1382): Bestpath score: -13896
+INFO: ps_lattice.c(1383): Normalizer P(O) = alpha(</s>:134:134) = -704541
+INFO: ps_lattice.c(1443): Joint P(O,S) = -711473 P(S|O) = -6932
+INFO: pocketsphinx_batch.c(879): copalrickroll-03: 1.34 seconds speech, 0.01 seconds CPU, 0.01 seconds wall
+INFO: pocketsphinx_batch.c(881): copalrickroll-03: 0.01 xRT (CPU), 0.01 xRT (elapsed)
+copal rickroll (copalrickroll-03 -13896)
+copalrickroll-03 done --------------------------------------
+INFO: pocketsphinx_batch.c(836): Decoding 'copalrickroll-04'
+INFO: cmn.c(200): CMN: 58.168,20.3422,-14.4528,9.33501,-28.7013,1.08178,4.63175,-20.2867,8.46789,-21.8388,-1.4165,6.77193,-14.5618
+INFO: fsg_search.c(857): 135 frames, 567 HMMs (4/fr), 1377 senones (10/fr), 188 history entries (1/fr)
+
+INFO: fsg_search.c(872): fsg 0.01 CPU 0.008 xRT
+INFO: fsg_search.c(874): fsg 0.01 wall 0.008 xRT
+INFO: fsg_search.c(1265): Start node candidate <sil>.0:2:8
+INFO: fsg_search.c(1265): Start node candidate <sil>.0:2:8
+INFO: fsg_search.c(1304): End node candidate <sil>.127:129:134 (-1109)
+INFO: fsg_search.c(1304): End node candidate <sil>.127:129:134 (-1109)
+INFO: fsg_search.c(1304): End node candidate <sil>.127:129:134 (-1109)
+INFO: fsg_search.c(1304): End node candidate <sil>.127:129:134 (-1109)
+INFO: fsg_search.c(1304): End node candidate rickroll.63:116:134 (-5904)
+INFO: fsg_search.c(1529): lattice start node <s>.0 end node </s>.135
+INFO: ps_lattice.c(1382): Bestpath score: -14064
+INFO: ps_lattice.c(1383): Normalizer P(O) = alpha(</s>:135:135) = -713143
+INFO: ps_lattice.c(1443): Joint P(O,S) = -720075 P(S|O) = -6932
+INFO: pocketsphinx_batch.c(879): copalrickroll-04: 1.35 seconds speech, 0.01 seconds CPU, 0.01 seconds wall
+INFO: pocketsphinx_batch.c(881): copalrickroll-04: 0.01 xRT (CPU), 0.01 xRT (elapsed)
+copal rickroll (copalrickroll-04 -14064)
+copalrickroll-04 done --------------------------------------
+INFO: pocketsphinx_batch.c(836): Decoding 'copalrickroll-05'
+INFO: cmn.c(200): CMN: 59.665,20.6401,-15.2577,10.9809,-31.5198,1.76298,1.70277,-20.1237,11.5483,-21.0618,3.36773,8.63291,-12.6904
+INFO: fsg_search.c(857): 133 frames, 568 HMMs (4/fr), 1368 senones (10/fr), 182 history entries (1/fr)
+
+INFO: fsg_search.c(872): fsg 0.01 CPU 0.008 xRT
+INFO: fsg_search.c(874): fsg 0.01 wall 0.008 xRT
+INFO: fsg_search.c(1265): Start node candidate <sil>.0:2:7
+INFO: fsg_search.c(1265): Start node candidate <sil>.0:2:7
+INFO: fsg_search.c(1304): End node candidate <sil>.126:128:132 (-1128)
+INFO: fsg_search.c(1304): End node candidate <sil>.126:128:132 (-1128)
+INFO: fsg_search.c(1304): End node candidate <sil>.126:128:132 (-1128)
+INFO: fsg_search.c(1304): End node candidate <sil>.126:128:132 (-1128)
+INFO: fsg_search.c(1304): End node candidate rickroll.60:114:132 (-6082)
+INFO: fsg_search.c(1529): lattice start node <s>.0 end node </s>.133
+INFO: ps_lattice.c(1382): Bestpath score: -13078
+INFO: ps_lattice.c(1383): Normalizer P(O) = alpha(</s>:133:133) = -662660
+INFO: ps_lattice.c(1443): Joint P(O,S) = -669592 P(S|O) = -6932
+INFO: pocketsphinx_batch.c(879): copalrickroll-05: 1.33 seconds speech, 0.01 seconds CPU, 0.01 seconds wall
+INFO: pocketsphinx_batch.c(881): copalrickroll-05: 0.01 xRT (CPU), 0.01 xRT (elapsed)
+copal rickroll (copalrickroll-05 -13078)
+copalrickroll-05 done --------------------------------------
+INFO: pocketsphinx_batch.c(836): Decoding 'copalrickroll-06'
+INFO: cmn.c(200): CMN: 58.9124,20.5026,-13.2144,11.665,-30.8624,-0.858986,3.70395,-19.3313,11.3889,-17.8123,1.82901,5.55251,-15.9505
+INFO: fsg_search.c(857): 141 frames, 590 HMMs (4/fr), 1416 senones (10/fr), 205 history entries (1/fr)
+
+INFO: fsg_search.c(872): fsg 0.01 CPU 0.008 xRT
+INFO: fsg_search.c(874): fsg 0.01 wall 0.008 xRT
+INFO: fsg_search.c(1265): Start node candidate <sil>.0:2:11
+INFO: fsg_search.c(1265): Start node candidate <sil>.0:2:11
+INFO: fsg_search.c(1304): End node candidate <sil>.133:135:140 (-1128)
+INFO: fsg_search.c(1304): End node candidate <sil>.133:135:140 (-1128)
+INFO: fsg_search.c(1304): End node candidate <sil>.133:135:140 (-1128)
+INFO: fsg_search.c(1304): End node candidate <sil>.133:135:140 (-1128)
+INFO: fsg_search.c(1304): End node candidate rickroll.63:121:140 (-6915)
+INFO: fsg_search.c(1529): lattice start node <s>.0 end node </s>.141
+INFO: ps_lattice.c(1382): Bestpath score: -14471
+INFO: ps_lattice.c(1383): Normalizer P(O) = alpha(</s>:141:141) = -733982
+INFO: ps_lattice.c(1443): Joint P(O,S) = -740914 P(S|O) = -6932
+INFO: pocketsphinx_batch.c(879): copalrickroll-06: 1.41 seconds speech, 0.01 seconds CPU, 0.01 seconds wall
+INFO: pocketsphinx_batch.c(881): copalrickroll-06: 0.01 xRT (CPU), 0.01 xRT (elapsed)
+copal rickroll (copalrickroll-06 -14471)
+copalrickroll-06 done --------------------------------------
+INFO: pocketsphinx_batch.c(836): Decoding 'copalrickroll-07'
+INFO: cmn.c(200): CMN: 59.1835,19.6855,-14.8603,11.8005,-29.7466,0.880574,3.63098,-19.9926,11.7513,-19.4,3.0525,8.78114,-14.4535
+INFO: fsg_search.c(857): 138 frames, 579 HMMs (4/fr), 1398 senones (10/fr), 182 history entries (1/fr)
+
+INFO: fsg_search.c(872): fsg 0.01 CPU 0.008 xRT
+INFO: fsg_search.c(874): fsg 0.01 wall 0.008 xRT
+INFO: fsg_search.c(1265): Start node candidate <sil>.0:2:12
+INFO: fsg_search.c(1265): Start node candidate <sil>.0:2:12
+INFO: fsg_search.c(1304): End node candidate <sil>.133:135:137 (-1067)
+INFO: fsg_search.c(1304): End node candidate <sil>.133:135:137 (-1067)
+INFO: fsg_search.c(1304): End node candidate <sil>.133:135:137 (-1067)
+INFO: fsg_search.c(1304): End node candidate <sil>.133:135:137 (-1067)
+INFO: fsg_search.c(1304): End node candidate rickroll.63:120:137 (-6304)
+INFO: fsg_search.c(1529): lattice start node <s>.0 end node </s>.138
+INFO: ps_lattice.c(1382): Bestpath score: -13565
+INFO: ps_lattice.c(1383): Normalizer P(O) = alpha(</s>:138:138) = -687594
+INFO: ps_lattice.c(1443): Joint P(O,S) = -694526 P(S|O) = -6932
+INFO: pocketsphinx_batch.c(879): copalrickroll-07: 1.38 seconds speech, 0.01 seconds CPU, 0.01 seconds wall
+INFO: pocketsphinx_batch.c(881): copalrickroll-07: 0.01 xRT (CPU), 0.01 xRT (elapsed)
+copal rickroll (copalrickroll-07 -13565)
+copalrickroll-07 done --------------------------------------
+INFO: pocketsphinx_batch.c(836): Decoding 'copalrickroll-08'
+INFO: cmn.c(200): CMN: 58.9815,20.0243,-13.5334,11.6428,-28.055,2.06843,1.65839,-19.1337,14.8818,-21.5715,4.74984,6.61252,-18.3652
+INFO: fsg_search.c(857): 141 frames, 599 HMMs (4/fr), 1440 senones (10/fr), 209 history entries (1/fr)
+
+INFO: fsg_search.c(872): fsg 0.01 CPU 0.008 xRT
+INFO: fsg_search.c(874): fsg 0.01 wall 0.008 xRT
+INFO: fsg_search.c(1265): Start node candidate <sil>.0:2:10
+INFO: fsg_search.c(1265): Start node candidate <sil>.0:2:10
+INFO: fsg_search.c(1304): End node candidate <sil>.133:135:140 (-1079)
+INFO: fsg_search.c(1304): End node candidate <sil>.133:135:140 (-1079)
+INFO: fsg_search.c(1304): End node candidate <sil>.133:135:140 (-1079)
+INFO: fsg_search.c(1304): End node candidate <sil>.133:135:140 (-1079)
+INFO: fsg_search.c(1304): End node candidate rickroll.66:120:140 (-6372)
+INFO: fsg_search.c(1529): lattice start node <s>.0 end node </s>.141
+INFO: ps_lattice.c(1382): Bestpath score: -13889
+INFO: ps_lattice.c(1383): Normalizer P(O) = alpha(</s>:141:141) = -704183
+INFO: ps_lattice.c(1443): Joint P(O,S) = -711115 P(S|O) = -6932
+INFO: pocketsphinx_batch.c(879): copalrickroll-08: 1.41 seconds speech, 0.01 seconds CPU, 0.01 seconds wall
+INFO: pocketsphinx_batch.c(881): copalrickroll-08: 0.01 xRT (CPU), 0.01 xRT (elapsed)
+copal rickroll (copalrickroll-08 -13889)
+copalrickroll-08 done --------------------------------------
+INFO: pocketsphinx_batch.c(836): Decoding 'copalrickroll-09'
+INFO: cmn.c(200): CMN: 59.0347,20.6428,-14.545,11.8395,-29.5098,2.09347,4.67068,-21.5993,12.8339,-20.6553,1.21364,9.03219,-15.3482
+INFO: fsg_search.c(857): 144 frames, 616 HMMs (4/fr), 1467 senones (10/fr), 224 history entries (1/fr)
+
+INFO: fsg_search.c(872): fsg 0.01 CPU 0.008 xRT
+INFO: fsg_search.c(874): fsg 0.01 wall 0.008 xRT
+INFO: fsg_search.c(1265): Start node candidate <sil>.0:2:11
+INFO: fsg_search.c(1265): Start node candidate <sil>.0:2:11
+INFO: fsg_search.c(1304): End node candidate <sil>.135:137:143 (-1090)
+INFO: fsg_search.c(1304): End node candidate <sil>.135:137:143 (-1090)
+INFO: fsg_search.c(1304): End node candidate <sil>.135:137:143 (-1090)
+INFO: fsg_search.c(1304): End node candidate <sil>.135:137:143 (-1090)
+INFO: fsg_search.c(1304): End node candidate rickroll.65:122:143 (-6457)
+INFO: fsg_search.c(1529): lattice start node <s>.0 end node </s>.144
+INFO: ps_lattice.c(1382): Bestpath score: -13553
+INFO: ps_lattice.c(1383): Normalizer P(O) = alpha(</s>:144:144) = -686980
+INFO: ps_lattice.c(1443): Joint P(O,S) = -693912 P(S|O) = -6932
+INFO: pocketsphinx_batch.c(879): copalrickroll-09: 1.44 seconds speech, 0.01 seconds CPU, 0.01 seconds wall
+INFO: pocketsphinx_batch.c(881): copalrickroll-09: 0.01 xRT (CPU), 0.01 xRT (elapsed)
+copal rickroll (copalrickroll-09 -13553)
+copalrickroll-09 done --------------------------------------
+INFO: pocketsphinx_batch.c(836): Decoding 'copalrickroll-10'
+INFO: cmn.c(200): CMN: 58.7838,20.2376,-12.1962,11.2742,-30.0901,0.182526,4.06741,-22.5234,12.085,-18.6384,4.30394,5.88847,-16.4427
+INFO: fsg_search.c(857): 142 frames, 596 HMMs (4/fr), 1443 senones (10/fr), 197 history entries (1/fr)
+
+INFO: fsg_search.c(872): fsg 0.01 CPU 0.008 xRT
+INFO: fsg_search.c(874): fsg 0.01 wall 0.008 xRT
+INFO: fsg_search.c(1265): Start node candidate <sil>.0:2:11
+INFO: fsg_search.c(1265): Start node candidate <sil>.0:2:11
+INFO: fsg_search.c(1304): End node candidate <sil>.133:135:141 (-1195)
+INFO: fsg_search.c(1304): End node candidate <sil>.133:135:141 (-1195)
+INFO: fsg_search.c(1304): End node candidate <sil>.133:135:141 (-1195)
+INFO: fsg_search.c(1304): End node candidate <sil>.133:135:141 (-1195)
+INFO: fsg_search.c(1304): End node candidate rickroll.64:123:141 (-6382)
+INFO: fsg_search.c(1529): lattice start node <s>.0 end node </s>.142
+INFO: ps_lattice.c(1382): Bestpath score: -14181
+INFO: ps_lattice.c(1383): Normalizer P(O) = alpha(</s>:142:142) = -719134
+INFO: ps_lattice.c(1443): Joint P(O,S) = -726066 P(S|O) = -6932
+INFO: pocketsphinx_batch.c(879): copalrickroll-10: 1.42 seconds speech, 0.01 seconds CPU, 0.01 seconds wall
+INFO: pocketsphinx_batch.c(881): copalrickroll-10: 0.01 xRT (CPU), 0.01 xRT (elapsed)
+copal rickroll (copalrickroll-10 -14181)
+copalrickroll-10 done --------------------------------------
+INFO: pocketsphinx_batch.c(836): Decoding 'copalrickroll-11'
+INFO: cmn.c(200): CMN: 58.861,20.5681,-14.315,12.0199,-29.6217,-1.36895,1.81666,-19.589,7.07041,-19.9651,4.66858,5.6933,-13.0812
+INFO: fsg_search.c(857): 138 frames, 619 HMMs (4/fr), 1473 senones (10/fr), 189 history entries (1/fr)
+
+INFO: fsg_search.c(872): fsg 0.01 CPU 0.008 xRT
+INFO: fsg_search.c(874): fsg 0.01 wall 0.008 xRT
+INFO: fsg_search.c(1265): Start node candidate <sil>.0:2:10
+INFO: fsg_search.c(1265): Start node candidate <sil>.0:2:10
+INFO: fsg_search.c(1304): End node candidate <sil>.133:135:137 (-1169)
+INFO: fsg_search.c(1304): End node candidate <sil>.133:135:137 (-1169)
+INFO: fsg_search.c(1304): End node candidate <sil>.133:135:137 (-1169)
+INFO: fsg_search.c(1304): End node candidate <sil>.133:135:137 (-1169)
+INFO: fsg_search.c(1304): End node candidate rickroll.63:119:137 (-6780)
+INFO: fsg_search.c(1529): lattice start node <s>.0 end node </s>.138
+INFO: ps_lattice.c(1382): Bestpath score: -14755
+INFO: ps_lattice.c(1383): Normalizer P(O) = alpha(</s>:138:138) = -748522
+INFO: ps_lattice.c(1443): Joint P(O,S) = -755454 P(S|O) = -6932
+INFO: pocketsphinx_batch.c(879): copalrickroll-11: 1.38 seconds speech, 0.01 seconds CPU, 0.01 seconds wall
+INFO: pocketsphinx_batch.c(881): copalrickroll-11: 0.01 xRT (CPU), 0.01 xRT (elapsed)
+copal rickroll (copalrickroll-11 -14755)
+copalrickroll-11 done --------------------------------------
+INFO: pocketsphinx_batch.c(836): Decoding 'copalrickroll-12'
+INFO: cmn.c(200): CMN: 57.1552,19.4425,-13.6724,9.33224,-30.2617,0.473766,0.411176,-19.8474,8.10913,-19.7682,3.73963,6.01602,-11.5805
+INFO: fsg_search.c(857): 143 frames, 624 HMMs (4/fr), 1464 senones (10/fr), 263 history entries (1/fr)
+
+INFO: fsg_search.c(872): fsg 0.01 CPU 0.008 xRT
+INFO: fsg_search.c(874): fsg 0.01 wall 0.008 xRT
+INFO: fsg_search.c(1265): Start node candidate <sil>.0:2:12
+INFO: fsg_search.c(1265): Start node candidate <sil>.0:2:12
+INFO: fsg_search.c(1304): End node candidate <sil>.130:132:142 (-1116)
+INFO: fsg_search.c(1304): End node candidate <sil>.130:132:142 (-1116)
+INFO: fsg_search.c(1304): End node candidate <sil>.130:132:142 (-1116)
+INFO: fsg_search.c(1304): End node candidate <sil>.130:132:142 (-1116)
+INFO: fsg_search.c(1304): End node candidate rickroll.64:118:142 (-6707)
+INFO: fsg_search.c(1529): lattice start node <s>.0 end node </s>.143
+INFO: ps_lattice.c(1382): Bestpath score: -13910
+INFO: ps_lattice.c(1383): Normalizer P(O) = alpha(</s>:143:143) = -705258
+INFO: ps_lattice.c(1443): Joint P(O,S) = -712190 P(S|O) = -6932
+INFO: pocketsphinx_batch.c(879): copalrickroll-12: 1.43 seconds speech, 0.01 seconds CPU, 0.01 seconds wall
+INFO: pocketsphinx_batch.c(881): copalrickroll-12: 0.01 xRT (CPU), 0.01 xRT (elapsed)
+copal rickroll (copalrickroll-12 -13910)
+copalrickroll-12 done --------------------------------------
+INFO: pocketsphinx_batch.c(836): Decoding 'copalrickroll-13'
+INFO: cmn.c(200): CMN: 58.2366,18.681,-14.8912,14.1201,-26.8202,-0.961509,1.91664,-10.1753,9.61619,-20.1754,1.59098,5.17397,-4.44535
+INFO: fsg_search.c(857): 151 frames, 683 HMMs (4/fr), 1578 senones (10/fr), 301 history entries (1/fr)
+
+INFO: fsg_search.c(872): fsg 0.01 CPU 0.008 xRT
+INFO: fsg_search.c(874): fsg 0.01 wall 0.008 xRT
+INFO: fsg_search.c(1265): Start node candidate <sil>.0:2:17
+INFO: fsg_search.c(1265): Start node candidate <sil>.0:2:17
+INFO: fsg_search.c(1304): End node candidate <sil>.140:142:150 (-1182)
+INFO: fsg_search.c(1304): End node candidate <sil>.140:142:150 (-1182)
+INFO: fsg_search.c(1304): End node candidate <sil>.140:142:150 (-1182)
+INFO: fsg_search.c(1304): End node candidate <sil>.140:142:150 (-1182)
+INFO: fsg_search.c(1304): End node candidate rickroll.68:125:150 (-7608)
+INFO: fsg_search.c(1529): lattice start node <s>.0 end node </s>.151
+INFO: ps_lattice.c(1382): Bestpath score: -16283
+INFO: ps_lattice.c(1383): Normalizer P(O) = alpha(</s>:151:151) = -826756
+INFO: ps_lattice.c(1443): Joint P(O,S) = -833688 P(S|O) = -6932
+INFO: pocketsphinx_batch.c(879): copalrickroll-13: 1.51 seconds speech, 0.01 seconds CPU, 0.01 seconds wall
+INFO: pocketsphinx_batch.c(881): copalrickroll-13: 0.01 xRT (CPU), 0.01 xRT (elapsed)
+copal rickroll (copalrickroll-13 -16283)
+copalrickroll-13 done --------------------------------------
+INFO: pocketsphinx_batch.c(897): TOTAL 16.75 seconds speech, 0.14 seconds CPU, 0.14 seconds wall
+INFO: pocketsphinx_batch.c(899): AVERAGE 0.01 xRT (CPU), 0.01 xRT (elapsed)
+INFO: fsg_search.c(267): TOTAL fsg 0.13 CPU 0.008 xRT
+INFO: fsg_search.c(270): TOTAL fsg 0.13 wall 0.008 xRT
+Sat Dec 28 20:38:54 2024

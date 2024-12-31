@@ -1,0 +1,118 @@
+Current configuration:
+[NAME]			[DEFLT]		[VALUE]
+-alpha			0.97		9.700000e-01
+-argfile				
+-blocksize		2048		2048
+-build_outdirs		yes		yes
+-c					/home/laurent/src/copal/model/etc/copal_test.fileids
+-cep2spec		no		no
+-di					/home/laurent/src/copal/model/wav-fmt
+-dither			no		no
+-do					/home/laurent/src/copal/model/feat
+-doublebw		no		no
+-ei					wav
+-eo					mfc
+-example		no		no
+-frate			100		100
+-help			no		no
+-i					
+-input_endian		little		little
+-lifter			0		22
+-logspec		no		no
+-lowerf			133.33334	1.300000e+02
+-mach_endian		little		little
+-mswav			no		yes
+-ncep			13		13
+-nchans			1		1
+-nfft			512		512
+-nfilt			40		25
+-nist			no		no
+-npart			0		1
+-nskip			0		0
+-o					
+-ofmt			sphinx		sphinx
+-part			0		1
+-raw			no		no
+-remove_dc		no		no
+-remove_noise		yes		yes
+-remove_silence		no		no
+-round_filters		yes		yes
+-runlen			-1		-1
+-samprate		16000		1.600000e+04
+-seed			-1		-1
+-smoothspec		no		no
+-sox			no		no
+-spec2cep		no		no
+-sph2pipe		no		no
+-transform		legacy		dct
+-unit_area		yes		yes
+-upperf			6855.4976	6.800000e+03
+-vad_postspeech		50		50
+-vad_prespeech		20		20
+-vad_startspeech	10		10
+-vad_threshold		3.0		3.000000e+00
+-verbose		no		no
+-warp_params				
+-warp_type		inverse_linear	inverse_linear
+-whichchan		0		0
+-wlen			0.025625	2.562500e-02
+
+INFO: sphinx_fe.c(1008): Processing all remaining utterances at position 0
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalidle-01.wav to /home/laurent/src/copal/model/feat/copalidle-01.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalidle-02.wav to /home/laurent/src/copal/model/feat/copalidle-02.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalidle-03.wav to /home/laurent/src/copal/model/feat/copalidle-03.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalidle-04.wav to /home/laurent/src/copal/model/feat/copalidle-04.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalidle-05.wav to /home/laurent/src/copal/model/feat/copalidle-05.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalidle-06.wav to /home/laurent/src/copal/model/feat/copalidle-06.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalidle-07.wav to /home/laurent/src/copal/model/feat/copalidle-07.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalidle-08.wav to /home/laurent/src/copal/model/feat/copalidle-08.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalidle-09.wav to /home/laurent/src/copal/model/feat/copalidle-09.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalidle-10.wav to /home/laurent/src/copal/model/feat/copalidle-10.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalidle-11.wav to /home/laurent/src/copal/model/feat/copalidle-11.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalexit-01.wav to /home/laurent/src/copal/model/feat/copalexit-01.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalexit-02.wav to /home/laurent/src/copal/model/feat/copalexit-02.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalexit-03.wav to /home/laurent/src/copal/model/feat/copalexit-03.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalexit-04.wav to /home/laurent/src/copal/model/feat/copalexit-04.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalexit-05.wav to /home/laurent/src/copal/model/feat/copalexit-05.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalexit-06.wav to /home/laurent/src/copal/model/feat/copalexit-06.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalexit-07.wav to /home/laurent/src/copal/model/feat/copalexit-07.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalexit-08.wav to /home/laurent/src/copal/model/feat/copalexit-08.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalexit-09.wav to /home/laurent/src/copal/model/feat/copalexit-09.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalexit-10.wav to /home/laurent/src/copal/model/feat/copalexit-10.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalplay-01.wav to /home/laurent/src/copal/model/feat/copalplay-01.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalplay-02.wav to /home/laurent/src/copal/model/feat/copalplay-02.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalplay-03.wav to /home/laurent/src/copal/model/feat/copalplay-03.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalplay-04.wav to /home/laurent/src/copal/model/feat/copalplay-04.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalplay-05.wav to /home/laurent/src/copal/model/feat/copalplay-05.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalplay-06.wav to /home/laurent/src/copal/model/feat/copalplay-06.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalplay-07.wav to /home/laurent/src/copal/model/feat/copalplay-07.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalplay-08.wav to /home/laurent/src/copal/model/feat/copalplay-08.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalplay-09.wav to /home/laurent/src/copal/model/feat/copalplay-09.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalplay-10.wav to /home/laurent/src/copal/model/feat/copalplay-10.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalplay-11.wav to /home/laurent/src/copal/model/feat/copalplay-11.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalplay-12.wav to /home/laurent/src/copal/model/feat/copalplay-12.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalzelda-01.wav to /home/laurent/src/copal/model/feat/copalzelda-01.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalzelda-02.wav to /home/laurent/src/copal/model/feat/copalzelda-02.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalzelda-03.wav to /home/laurent/src/copal/model/feat/copalzelda-03.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalzelda-04.wav to /home/laurent/src/copal/model/feat/copalzelda-04.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalzelda-05.wav to /home/laurent/src/copal/model/feat/copalzelda-05.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalzelda-06.wav to /home/laurent/src/copal/model/feat/copalzelda-06.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalzelda-07.wav to /home/laurent/src/copal/model/feat/copalzelda-07.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalzelda-08.wav to /home/laurent/src/copal/model/feat/copalzelda-08.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalzelda-09.wav to /home/laurent/src/copal/model/feat/copalzelda-09.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalzelda-10.wav to /home/laurent/src/copal/model/feat/copalzelda-10.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalzelda-11.wav to /home/laurent/src/copal/model/feat/copalzelda-11.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalrickroll-01.wav to /home/laurent/src/copal/model/feat/copalrickroll-01.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalrickroll-02.wav to /home/laurent/src/copal/model/feat/copalrickroll-02.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalrickroll-03.wav to /home/laurent/src/copal/model/feat/copalrickroll-03.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalrickroll-04.wav to /home/laurent/src/copal/model/feat/copalrickroll-04.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalrickroll-05.wav to /home/laurent/src/copal/model/feat/copalrickroll-05.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalrickroll-06.wav to /home/laurent/src/copal/model/feat/copalrickroll-06.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalrickroll-07.wav to /home/laurent/src/copal/model/feat/copalrickroll-07.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalrickroll-08.wav to /home/laurent/src/copal/model/feat/copalrickroll-08.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalrickroll-09.wav to /home/laurent/src/copal/model/feat/copalrickroll-09.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalrickroll-10.wav to /home/laurent/src/copal/model/feat/copalrickroll-10.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalrickroll-11.wav to /home/laurent/src/copal/model/feat/copalrickroll-11.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalrickroll-12.wav to /home/laurent/src/copal/model/feat/copalrickroll-12.mfc
+INFO: sphinx_fe.c(828): Converting /home/laurent/src/copal/model/wav-fmt/copalrickroll-13.wav to /home/laurent/src/copal/model/feat/copalrickroll-13.mfc
+Sat Dec 28 21:59:57 2024
